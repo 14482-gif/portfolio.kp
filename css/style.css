@@ -928,3 +928,62 @@ transform:translateY(-10px);
 box-shadow:0 15px 35px rgba(91,124,250,.25);
 
 }
+/*==============================
+      ACTIVITIES
+==============================*/
+
+.activity-card{
+
+border-top:5px solid var(--secondary);
+
+}
+
+.activity-card:hover{
+
+transform:translateY(-12px);
+
+box-shadow:0 15px 35px rgba(91,124,250,.25);
+
+}
+
+.activity-card img{
+
+transition:.4s;
+
+}
+
+.activity-card:hover img{
+
+transform:scale(1.08);
+
+}
+
+.activity-card .content{
+
+padding:25px;
+
+}
+
+.activity-card h3{
+
+color:var(--dark);
+
+margin-bottom:10px;
+
+}
+
+.activity-card h3 i{
+
+color:var(--primary);
+
+margin-right:8px;
+
+}
+
+.activity-card p{
+
+line-height:1.8;
+
+color:#666;
+
+}
