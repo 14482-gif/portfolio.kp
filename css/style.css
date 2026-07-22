@@ -794,3 +794,74 @@ flex-wrap:wrap;
 }
 
 }
+/*======================================
+      NURSING ABOUT CARD
+======================================*/
+
+.medical-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+
+gap:20px;
+
+margin-top:40px;
+
+}
+
+.medical-card{
+
+background:#fff;
+
+padding:25px;
+
+border-radius:20px;
+
+text-align:center;
+
+box-shadow:var(--shadow);
+
+border-top:5px solid var(--secondary);
+
+transition:.35s;
+
+}
+
+.medical-card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 15px 35px rgba(91,124,250,.25);
+
+}
+
+.medical-card i{
+
+font-size:45px;
+
+background:linear-gradient(45deg,var(--primary),var(--secondary));
+
+-webkit-background-clip:text;
+
+-webkit-text-fill-color:transparent;
+
+margin-bottom:15px;
+
+}
+
+.medical-card h3{
+
+color:var(--dark);
+
+margin-bottom:10px;
+
+}
+
+.medical-card p{
+
+color:#666;
+
+line-height:1.8;
+
+}
